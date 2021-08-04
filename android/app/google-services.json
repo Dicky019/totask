@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "686273993270",
+    "project_id": "webme-2019",
+    "storage_bucket": "webme-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686273993270:android:2eecfb7b54529bd5515697",
+        "android_client_info": {
+          "package_name": "com.dicky.firebasegetx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686273993270-g3ec3rjirl19uoktsh5q95rgigc9aov2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dicky.firebasegetx",
+            "certificate_hash": "72e08d7f10c0368bafa3cfa554d20052011ab0ea"
+          }
+        },
+        {
+          "client_id": "686273993270-1usabjp3koau8r4d0hpnr0jggjbvlsn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLtGsLjvzqsveqASut2iSAp1iXFJkd3Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686273993270-1usabjp3koau8r4d0hpnr0jggjbvlsn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686273993270:android:0dfb86feb2321fa2515697",
+        "android_client_info": {
+          "package_name": "com.dicky.totask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686273993270-1usabjp3koau8r4d0hpnr0jggjbvlsn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLtGsLjvzqsveqASut2iSAp1iXFJkd3Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686273993270-1usabjp3koau8r4d0hpnr0jggjbvlsn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686273993270:android:f46653416830ea05515697",
+        "android_client_info": {
+          "package_name": "io.instamobile.flutter_login_screen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686273993270-1usabjp3koau8r4d0hpnr0jggjbvlsn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLtGsLjvzqsveqASut2iSAp1iXFJkd3Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686273993270-1usabjp3koau8r4d0hpnr0jggjbvlsn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

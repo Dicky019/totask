@@ -1,0 +1,27 @@
+name: totask
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.3.4
+  percent_indicator: ^3.0.1
+  firebase_core: 1.4.0
+  cloud_firestore: ^2.4.0
+  intl:
+  flutter_quill:
+  datetime_picker_formfield: 
+  
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
