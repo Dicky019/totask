@@ -9,9 +9,6 @@ class HomeController extends GetxController {
   var jumlah = 0.obs;
   
   //model
-
-  
-
   final CollectionReference userCollection =
       FirebaseFirestore.instance.collection('user');
 
@@ -31,9 +28,9 @@ class HomeController extends GetxController {
     userCollection.doc(id).delete();
   }
 
-  void toInput() {
-    Get.toNamed(Routes.INPUT);
-  }
+  // void toInput() {
+  //   Get.toNamed(Routes.INPUT);
+  // }
 
   getData() async {
     data = userCollection.snapshots();

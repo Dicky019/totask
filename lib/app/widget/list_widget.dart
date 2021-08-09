@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:totask/app/modules/home/controllers/home_controller.dart';
-
 import '../data/utils/assets.dart';
 
 class ListTask extends StatelessWidget {
@@ -21,14 +19,10 @@ class ListTask extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     final sucses = false.obs;
     onsucses() {
       sucses.value = !sucses.value;
     }
-
-    
-
     return Container(
       padding: EdgeInsets.symmetric(vertical: 8),
       margin: EdgeInsets.symmetric(vertical: 4),
