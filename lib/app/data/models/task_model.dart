@@ -1,45 +1,42 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 class TaskModel {
-  String? nameUser;
-  String? nameCategori;
-  String? nameTask;
+  String? username;
+  String? pelajaran;
+  String? kelas;
   String? catatan;
   String? deadline;
+  String? tampil;
+  String? tampilPelajaran;
 
   TaskModel(
-      {this.nameUser,
-      this.nameCategori,
-      this.nameTask,
+      {this.username,
+      this.pelajaran,
+      this.kelas,
       this.catatan,
-      this.deadline});
+      this.deadline,
+      this.tampil,
+      this.tampilPelajaran,});
 
-  TaskModel.fromJson(Map<String, dynamic> json) {
-    nameUser = json['nameUser'];
-    nameCategori = json['nameCategori'];
-    nameTask = json['nameTask'];
+  TaskModel.fromJson(DocumentSnapshot<Object?> json) {
+    username = json['username'];
+    pelajaran = json['pelajaran'];
+    kelas = json['kelas'];
     catatan = json['catatan'];
     deadline = json['deadline'];
+    tampil = json['tampil'];
+    tampilPelajaran = json['tampilPelajaran'];
   }
 
   Map<String, dynamic> toJson() {
     final data = <String, dynamic>{};
-    data['nameUser'] = nameUser;
-    data['nameCategori'] = nameCategori;
-    data['nameTask'] = nameTask;
+    data['username'] = username;
+    data['pelajaran'] = pelajaran;
+    data['kelas'] = kelas;
     data['catatan'] = catatan;
     data['deadline'] = deadline;
+    data['tampil'] = tampil;
+    data['tampilPelajaran'] = tampilPelajaran;
     return data;
-  }
-
-  
-}
-
-
-class ModeltoView {
-  
-  String  nameUser = "['nameUser']";
-  String  nameCategori = "['nameCategori']";
-  String  nameTask = "['nameTask']";
-  String  catatan = "['catatan']";
-  String  deadline = "['deadline']";
-  
+  } 
 }

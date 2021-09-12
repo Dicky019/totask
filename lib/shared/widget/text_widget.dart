@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../data/utils/assets.dart';
+import '../../app/data/utils/assets.dart';
 
 class TextWidget extends StatelessWidget {
   final String text;
@@ -18,14 +18,16 @@ class TextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      text,
-      overflow: overflow,
-      style: TextStyle(
-        fontSize: size,
-        color: color,
-        fontFamily: 'Roboto',
-        fontWeight: fontWeight,
+    return Center(
+      child: Text(
+        text,
+        overflow: overflow,
+        style: TextStyle(
+          fontSize: size,
+          color: color,
+          fontFamily: 'Roboto',
+          fontWeight: fontWeight,
+        ),
       ),
     );
   }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../data/utils/assets.dart';
+import '../../app/data/utils/assets.dart';
 
 class ListTask extends StatelessWidget {
   const ListTask({
@@ -25,7 +25,7 @@ class ListTask extends StatelessWidget {
     }
     return Container(
       padding: EdgeInsets.symmetric(vertical: 8),
-      margin: EdgeInsets.symmetric(vertical: 4),
+      
       decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(15),
@@ -100,7 +100,7 @@ class ListTask extends StatelessWidget {
                                   fontSize: 18, fontWeight: FontWeight.w700)
                               : TextStyle(
                                   fontSize: 18,
-                                  fontWeight: FontWeight.w800,
+                                  fontWeight: FontWeight.w700,
                                   decoration: TextDecoration.lineThrough,
                                   decorationThickness: 2.85,
                                 ),
@@ -138,6 +138,7 @@ class ListTask extends StatelessWidget {
             child: IconButton(
                 onPressed: onTapCancel,
                 iconSize: 30,
+                splashRadius: 0.1,
                 icon: Icon(Icons.cancel_rounded)),
           ),
         ],
